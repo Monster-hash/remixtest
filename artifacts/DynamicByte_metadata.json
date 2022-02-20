@@ -54,15 +54,6 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "InitName",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
 				"name": "changeName",
 				"outputs": [],
 				"payable": false,
@@ -79,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"9_dynamicByte.sol": "DynamicByte"
+			"1.9_DynamicByte.sol": "DynamicByte"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -90,10 +81,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"9_dynamicByte.sol": {
-			"keccak256": "0x5de237cefd85e6d109f1b6da3b9309439406b6cfdd0c79d2f20f4a07d1530988",
+		"1.9_DynamicByte.sol": {
+			"keccak256": "0xe94bde93e5c9eee38de36db05571f0a64d7fbe5ee19c0f2f160fe0afa5e9ab2a",
 			"urls": [
-				"bzzr://354a9d2586bb0cf82ebb44528b6860d8c31e85b7d2c23e894663d357ac0b3f65"
+				"bzzr://bb0540346f695ee226bbfab44becd0821ebbbd245d5fecefd5f1a53db1259773"
 			]
 		}
 	},

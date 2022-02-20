@@ -8,7 +8,7 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "getName",
+				"name": "name",
 				"outputs": [
 					{
 						"name": "",
@@ -22,11 +22,11 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "changeName1",
+				"name": "bytesToString",
 				"outputs": [
 					{
 						"name": "",
-						"type": "bytes1"
+						"type": "string"
 					}
 				],
 				"payable": false,
@@ -36,24 +36,10 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "changeName2",
+				"name": "InitName",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "getLength",
-				"outputs": [
-					{
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -66,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2.1_DynamicString.sol": "DynamicString"
+			"2.5_BytesToString.sol": "BytesToString"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -77,10 +63,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"2.1_DynamicString.sol": {
-			"keccak256": "0x8a4086a2640ca21234c7f02e202875a9bce03d9947b3aabb2f599fd9d4c90bae",
+		"2.5_BytesToString.sol": {
+			"keccak256": "0x2e18a62b2b2f25a5e400604ce1358d9ca1f82e76c80148d5016bc411bae29672",
 			"urls": [
-				"bzzr://833e86b9d770a41a4d6e3fa42bb32b780ed2a8928573bce2210e673fcbe36eba"
+				"bzzr://c21be3ce5df6c0f9428b61bc66759301e460dd46e63c2c95e1c91afffcee56fc"
 			]
 		}
 	},

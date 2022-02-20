@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "fixToDynamicBytes",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"2.4_fixDynamic.sol": "fixDynamic"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"2.4_fixDynamic.sol": {
+			"keccak256": "0x67fb558f6ee017583d7839e94c105483d33de99a98872df2ab57c98547bf5894",
+			"urls": [
+				"bzzr://aca03b4a4e0f55e966bff654457b5a927222ddeac747fbd796f71086ac0aff91"
+			]
+		}
+	},
+	"version": 1
+}
